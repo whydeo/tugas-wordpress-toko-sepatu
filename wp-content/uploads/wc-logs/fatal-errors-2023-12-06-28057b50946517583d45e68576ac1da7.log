@@ -1,0 +1,44 @@
+2023-12-06T00:47:38+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Table 'sepatuku.wp_actionscheduler_actions' doesn't exist in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:58
+Stack trace:
+#0 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(21): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(124): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(120): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php( in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 58
+
+2023-12-06T00:47:38+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'sepatuku.wp_actionscheduler_actions' doesn't exist. in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:564
+Stack trace:
+#0 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(480): ActionScheduler_DBStore->claim_actions(0, 25, NULL, '', '')
+#1 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(71): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(63): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp7\htdocs\sepatuku\wp-includes\class-wp-hook.php(324): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp7\htdocs\sepatuku\wp-includes\class-wp-hoo in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 564
+
+2023-12-06T00:48:16+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Table 'sepatuku.wp_actionscheduler_actions' doesn't exist in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:58
+Stack trace:
+#0 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(21): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(124): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(120): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php( in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 58
+
+2023-12-06T00:49:38+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Table 'sepatuku.wp_actionscheduler_actions' doesn't exist in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:58
+Stack trace:
+#0 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(21): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(124): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(120): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php( in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 58
+
+2023-12-06T00:49:39+00:00 CRITICAL Uncaught RuntimeException: Unable to claim actions. Database error: Table 'sepatuku.wp_actionscheduler_actions' doesn't exist. in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:564
+Stack trace:
+#0 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(480): ActionScheduler_DBStore->claim_actions(0, 25, NULL, '', '')
+#1 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(71): ActionScheduler_DBStore->stake_claim(25)
+#2 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_QueueRunner.php(63): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 C:\xampp7\htdocs\sepatuku\wp-includes\class-wp-hook.php(324): ActionScheduler_QueueRunner->run('WP Cron')
+#4 C:\xampp7\htdocs\sepatuku\wp-includes\class-wp-hoo in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 564
+
+2023-12-06T00:50:17+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Table 'sepatuku.wp_actionscheduler_actions' doesn't exist in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:58
+Stack trace:
+#0 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(21): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(124): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(120): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php( in C:\xampp7\htdocs\sepatuku\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 58
+
